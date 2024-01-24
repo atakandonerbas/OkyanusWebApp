@@ -1,0 +1,71 @@
+﻿h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Sans-serif;
+    color: #333333;
+    background-image: url(CssResimleri/uyebackground.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover
+}
+
+.ust {
+    width: 200px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.alt {
+    width: 300px;
+}
+
+.girisPanel {
+    width: 300px;
+    border: 1px solid silver;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 100px auto;
+    background-color: white;
+}
+
+.satir {
+    margin: 15px 0px;
+}
+
+.metinKutu {
+    width: 90%;
+    font-size: 12px;
+    border-radius: 5px;
+    border: 1px solid silver;
+    padding: 10px;
+    color: dimgrey;
+    margin: 5px;
+}
+
+.girisButon {
+    border: 2px solid #454542;
+    font-weight: 500;
+    color: white;
+    background-color: #1113B0;
+    padding: 10px 30px;
+    width: 99%;
+    border-radius: 6px;
+}
+
+    .girisButon:hover {
+        cursor: pointer;
+        background-color: #07084f;
+    }
+
+.hataPanel {
+    background-color: red;
+    color: white;
+    padding: 10px;
+    border: 3px solid darkred;
+    border-radius: 6px;
+    font-size: 12px;
+}

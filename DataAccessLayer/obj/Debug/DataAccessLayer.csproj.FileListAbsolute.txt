@@ -1,0 +1,6 @@
+C:\Users\adone\source\repos\OkyanusWebApp\DataAccessLayer\bin\Debug\DataAccessLayer.dll
+C:\Users\adone\source\repos\OkyanusWebApp\DataAccessLayer\bin\Debug\DataAccessLayer.pdb
+C:\Users\adone\source\repos\OkyanusWebApp\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\adone\source\repos\OkyanusWebApp\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\adone\source\repos\OkyanusWebApp\DataAccessLayer\obj\Debug\DataAccessLayer.dll
+C:\Users\adone\source\repos\OkyanusWebApp\DataAccessLayer\obj\Debug\DataAccessLayer.pdb

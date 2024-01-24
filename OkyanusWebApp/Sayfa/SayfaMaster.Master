@@ -1,0 +1,38 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="SayfaMaster.master.cs" Inherits="OkyanusWebApp.Sayfa.SayfaMaster" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>Karanlığı Bilimle Fethet</title>
+    <link href="css/SayfaStyle.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="anaTasiyici">
+            <div class="ustBar">
+                <img src="../YoneticiPanel/SiteResimleri/okyanus_logo.png" />
+            </div>
+            <div class="altBar">
+                hakkımzda projelerimiz vs.
+            </div>
+            <div class="altTasiyici">
+                <div class="kategoriler">
+                    Ha bura makale
+                </div>
+                <div class=icerik>
+                    Ha bura icerik
+                </div>
+                <div class="reklam">
+                    Ha bura reklam
+                </div>
+            </div>
+
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
