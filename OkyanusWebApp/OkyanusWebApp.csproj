@@ -71,6 +71,7 @@
     <Content Include="Sayfa\css\SayfaStyle.css" />
     <Content Include="Sayfa\css\UyeGirisStyle.css" />
     <Content Include="Sayfa\HomePage.aspx" />
+    <Content Include="Sayfa\Reklamlar\160x600.gif" />
     <Content Include="Sayfa\UyeGiris.aspx" />
     <Content Include="Web.config" />
     <Content Include="YoneticiPanel\Anasayfa.aspx" />
@@ -331,6 +332,7 @@
     <Content Include="YoneticiPanel\SiteResimleri\delete.png" />
     <Content Include="Sayfa\SayfaResimleri\okyanus_logo.png" />
     <Content Include="YoneticiPanel\SiteResimleri\okyanus_logo.png" />
+    <Content Include="Sayfa\SayfaResimleri\okyanus_logo_uye.png" />
     <Content Include="YoneticiPanel\UyeListele.aspx" />
     <Content Include="YoneticiPanel\YoneticiGiris.aspx" />
     <Content Include="YoneticiPanel\YorumListele.aspx" />

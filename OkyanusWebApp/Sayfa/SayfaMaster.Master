@@ -13,26 +13,42 @@
     <form id="form1" runat="server">
         <div class="anaTasiyici">
             <div class="ustBar">
-                <img src="../YoneticiPanel/SiteResimleri/okyanus_logo.png" />
+                <div class="sol">
+                    <img src="SayfaResimleri/okyanus_logo_uye.png" />
+                </div>
+                <div class="sag">
+                    <asp:LinkButton ID="lbtn_uye_cikis" runat="server" OnClick="lbtn_uye_cikis_Click">Çıkış</asp:LinkButton>
+                    <a href="#">Profil</a>
+                    <a href="#">İş Fırsatları</a>
+                </div>
             </div>
+            <div style="clear: both"></div>
             <div class="altBar">
-                hakkımzda projelerimiz vs.
+                <ul>
+                    <li><a href="#">Hakkımızda</a></li>
+                    <li><a href="#">Projelerimiz</a></li>
+                    <li><a href="#">Ürünlerimiz</a></li>
+                    <li><a href="^#">Sosyal Medya</a></li>
+                    <li><a href="#">Bağış</a></li>
+                </ul>
             </div>
+            <div style="clear: both"></div>
             <div class="altTasiyici">
                 <div class="kategoriler">
-                    Ha bura makale
+                    Kategoriler
                 </div>
                 <div class=icerik>
-                    Ha bura icerik
+                    Makaleler 
                 </div>
                 <div class="reklam">
-                    Ha bura reklam
+                    <a href="http://www.turhost.com"><img src="Reklamlar/160x600.gif" /></a>
                 </div>
             </div>
 
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
             </asp:ContentPlaceHolder>
         </div>
+        <div style="clear:both"></div>
     </form>
 </body>
 </html>

@@ -81,7 +81,7 @@ namespace DataAccessLayer
                 int sayi = Convert.ToInt32(cmd.ExecuteScalar());
                 if (sayi > 0)
                 {
-                    cmd.CommandText = "SELECT U.ID, U.Isim, U.Soyisim, U.KullaniciAdi, U.Mail, U.Sifre, U.KayitTarihi, U.Silinmis, U.Durum FROM Uyeler WHERE U.KullaniciAdi = @ka AND U.Sifre = @sif";
+                    cmd.CommandText = "SELECT ID, Isim, Soyisim, KullaniciAdi, Mail, Sifre, KayitTarihi, Silinmis, Durum FROM Uyeler WHERE KullaniciAdi = @ka AND Sifre = @sif";
                     cmd.Parameters.Clear();
                     cmd.Parameters.AddWithValue("@ka", kullaniciadi);
                     cmd.Parameters.AddWithValue("@sif", sifre);

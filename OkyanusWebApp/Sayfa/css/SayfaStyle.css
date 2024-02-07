@@ -1,2 +1,62 @@
-﻿body {
+﻿*, h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
 }
+
+body {
+    font-family: Calibri;
+    font-size: 17px;
+}
+
+.anaTasiyici {
+}
+
+.ustBar {
+    min-height: 110px;
+    border-bottom: 2px solid silver;
+}
+
+    .ustBar .sol {
+        float: left;
+    }
+
+    .ustBar .sag {
+        float: right;
+        padding: 12px 19px;
+        margin: 17px;
+        margin-left: 10px;
+    }
+
+        .ustBar .sag a {
+            text-decoration: none;
+            color: #292929;
+            float: right;
+            padding: 12px 5px;
+        }
+
+            .ustBar .sag a:hover {
+                color: #1113B0;
+            }
+
+.altBar {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+    .altBar li {
+        float: left;
+        list-style: none;
+        padding: 10px 30px;
+        font-weight: 500;
+        color: white;
+    }
+
+        .altBar li a {
+            text-decoration: none;
+            color: #292929;
+        }
+
+            .altBar li a:hover {
+                color: #1113B0;
+            }
