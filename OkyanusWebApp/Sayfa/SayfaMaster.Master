@@ -35,13 +35,21 @@
             <div style="clear: both"></div>
             <div class="altTasiyici">
                 <div class="kategoriler">
-                    Kategoriler
+                    <ul>
+                        <asp:Repeater ID="rp_kategoriler" runat="server">
+                            <ItemTemplate>
+                                <a href="#">
+                                    <li><%# Eval("Isim") %></li>
+                                </a>
+                            </ItemTemplate>
+                        </asp:Repeater>
+                    </ul>
                 </div>
                 <div class=icerik>
                     Makaleler 
                 </div>
                 <div class="reklam">
-                    <a href="http://www.turhost.com"><img src="Reklamlar/160x600.gif" /></a>
+                    <a href="http://www.turhost.com" target="_blank"><img src="Reklamlar/160x600.gif" /></a>
                 </div>
             </div>
 

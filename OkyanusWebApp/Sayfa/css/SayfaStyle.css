@@ -50,13 +50,56 @@ body {
         padding: 10px 30px;
         font-weight: 500;
         color: white;
+        border-bottom: 1px solid silver;
     }
+
+        .altBar li {
+            color: white;
+        }
 
         .altBar li a {
             text-decoration: none;
             color: #292929;
         }
-
             .altBar li a:hover {
                 color: #1113B0;
             }
+
+
+
+.kategoriler {
+    float: left;
+    margin-top: 30px;
+    width: 15%;
+    height: auto;
+    border-right: 1px solid silver;
+}
+
+    .kategoriler ul {
+        list-style-type: none;
+    }
+
+        .kategoriler ul a {
+            text-decoration: none;
+            color: #1113B0;
+        }
+
+            .kategoriler ul a li {
+                padding: 5px;
+                padding: 20px;
+            }
+
+                .kategoriler ul a li:hover {
+                    background-color: #0099DD;
+                    color: white;
+                }
+
+.icerik {
+    float: left;
+    margin: 30px;
+}
+
+.reklam {
+    float: right;
+    margin: 30px;
+}
