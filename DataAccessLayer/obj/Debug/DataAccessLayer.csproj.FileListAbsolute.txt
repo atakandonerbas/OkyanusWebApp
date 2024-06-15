@@ -10,3 +10,9 @@ C:\Users\adone\Documents\GitHub\OkyanusWebApp\DataAccessLayer\obj\Debug\DataAcce
 C:\Users\adone\Documents\GitHub\OkyanusWebApp\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CoreCompileInputs.cache
 C:\Users\adone\Documents\GitHub\OkyanusWebApp\DataAccessLayer\obj\Debug\DataAccessLayer.dll
 C:\Users\adone\Documents\GitHub\OkyanusWebApp\DataAccessLayer\obj\Debug\DataAccessLayer.pdb
+C:\Users\ACER\Documents\GitHub\OkyanusWebApp\DataAccessLayer\bin\Debug\DataAccessLayer.dll
+C:\Users\ACER\Documents\GitHub\OkyanusWebApp\DataAccessLayer\bin\Debug\DataAccessLayer.pdb
+C:\Users\ACER\Documents\GitHub\OkyanusWebApp\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\ACER\Documents\GitHub\OkyanusWebApp\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\ACER\Documents\GitHub\OkyanusWebApp\DataAccessLayer\obj\Debug\DataAccessLayer.dll
+C:\Users\ACER\Documents\GitHub\OkyanusWebApp\DataAccessLayer\obj\Debug\DataAccessLayer.pdb
